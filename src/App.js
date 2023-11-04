@@ -1,32 +1,38 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Header from "./components/header/header";
-import Home from "./components/home/home";
-import Footer from "./components/footer/footer";
-//paginas
-import Acessorios from  "./components/pages/acessorios/acessorios";
-import Aromatizadores from "./components/pages/aromatizadores/aromatizadores";
-import Essenciais from "./components/pages/essenciais/essenciais";
-import Naturais from "./components/pages/naturais/naturais";
-import Ofertas from "./components/pages/ofertas/ofertas";
-import Pessoal from "./components/pages/pessoal/pessoal";
-import Sinergias from "./components/pages/sinergias/sinergias";
-import Vegetais from "./components/pages/vegetais/vegetais";
+import Footer from './componentes/corpo/footer';
+import Header from './componentes/corpo/header';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Produtos1 from './componentes/oleos/p1/p1';
+import Produtos2 from './componentes/oleos/p2/p2';
+import Produtos3 from './componentes/oleos/p3/p3';
+import Produtos4 from './componentes/oleos/p4/p4';
+import Produtos5 from './componentes/oleos/p5/p5';
+import Produtos6 from './componentes/oleos/p6/p6';
+import Produtos7 from './componentes/oleos/p7/p7';
+
+import Meio from './componentes/corpo/meio';
 
 function App() {
   return (
-    <div className="App">
-    <Router>
-        <Header/> 
-      <Routes>
-        
-      </Routes>
-        
-    </Router>
-    
-  
-    </div>
+    <main>
+      <Router>
+        <Header/>
+          <Routes>
+            <Route path='/' element={<Meio/>} />
+            <Route path='/Meio' element={<Meio/>} />
+            <Route path='/Produtos1' element={<Produtos1/>} />
+            <Route path='/Produtos2' element={<Produtos2/>} />
+            <Route path='/Produtos3' element={<Produtos3/>} />
+            <Route path='/Produtos4' element={<Produtos4/>} />
+            <Route path='/Produtos5' element={<Produtos5/>} />
+            <Route path='/Produtos6' element={<Produtos6/>} />
+            <Route path='/Produtos7' element={<Produtos7/>} />
+          </Routes>
+
+        <Footer/>
+        </Router>
+    </main>
   );
 }
 

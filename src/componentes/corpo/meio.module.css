@@ -1,0 +1,8 @@
+.tudo img{
+    width: 95%;
+}
+.tudo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

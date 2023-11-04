@@ -1,0 +1,20 @@
+.caixona{
+    position: relative;
+    width: 270px;
+    height: auto;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    width: 270px;
+    height: 270px;
+    background-color: #f7f7f7;
+}
+.imagem img{
+    width: 280px;
+}

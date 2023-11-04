@@ -1,0 +1,156 @@
+footer{
+    color: #333333;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.inscreva{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+
+}
+
+.inscreve{
+    width: 200px;
+}
+.email{
+    width: 760px;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.campo{
+    width: 520px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid rgb(157, 157, 157);
+}
+
+.butão{
+    width: 220px;
+    height: 45px;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 15px;
+    background-color: rgb(148, 250, 46);
+    color: #fff;
+}
+.butão:hover{
+    background-color: rgb(111, 189, 34);
+}
+.pontos{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+
+    border: #f5f5f5  solid ;
+    border-width: 2px  0px 2px 0px;
+
+}
+.pontos2{
+    width: 35%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    border: #f5f5f5  solid ;
+    border-width: 0px  2px 0px 0px;
+
+}
+.pontos3{
+    width: 35%;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: 20px;
+}
+.texto p {
+    margin: 0;
+    margin-top: 10px;
+}
+.texto h2 {
+    margin: 0;
+}
+.pontos2 svg{
+    fill: #aac524;
+    width: 50px;
+}
+.pontos3 svg{
+    fill: #aac524;
+    width: 50px;
+
+}
+
+/*MEIO*/
+.meio{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border: #f5f5f5  solid ;
+    border-width: 0px  0px 2px 0px;
+}
+.pagamento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartao{
+    width: 180px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cartao svg{
+    width: 50px;
+    fill: #666666;
+}
+.redesicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.redesicon svg{
+    width: 30px;
+
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 13px;
+}
